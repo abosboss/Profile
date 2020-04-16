@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+  }
+  .box{
+      width: 450px;
+      background: rgba(0, 0, 0, 0.4);
+      padding: 40px;
+      text-align: center;
+      margin: auto;
+      margin-top: 5%;
+      color: white;
+      font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+  }
+  .box h1{
+      font-size: 20px;
+      letter-spacing: 3px;
+      font-weight: 100;
+  }
+  .box h5{
+      font-size: 20px;
+      letter-spacing: 3px;
+      font-weight: 100;
+  }
+  .box p{
+      text-align: justify;
+  }
+  ul{
+      margin: 0;
+      padding: 0;
+  }
+  .box li{
+      display: inline-block;
+      margin: 6px;
+      list-style: none;
+  } .wrapper {
+    background: burlywood; margin: 10 auto;}
+  .wrapper h2{text-transform: 
+    uppercase;color: #e74c3c}
+    .wrapper p{color: #222;font-weight: bold;}
+    .wrapper inpu[type=text],
+    .wrapper input[type=Email],
+    textarea{
+        width: 50%; margin-bottom: 15px;
+        padding: 5px;
+    }
+    .wrapper a{
+        text-decoration: none;
+        background: #22eecc;
+        color: #fff;
+        display: block;
+        padding: 10px  15px;
+        text-align: center;
+        font-size: 15px;
+    }
+  .box li a{
+      color: blue;
+      text-decoration: aqua;
+      font-size: 50px;
+      transition: all ease-in-out 250ms;
+  } 
+  .box li a:hover{
+      color: #b9b9b9;
+  }
